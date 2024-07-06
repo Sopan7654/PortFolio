@@ -18,7 +18,7 @@ function Contact() {
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/raeqjora", userInfo);
+      await axios.post("https://getform.io/f/paqgxpra", userInfo);
       toast.success("Your message has been sent");
     } catch (error) {
       console.log(error);
@@ -42,7 +42,7 @@ function Contact() {
           >
             <h1 className="text-xl font-semibold mb-4">Send Your Message</h1>
             <div className="flex flex-col mb-4">
-              <label className="block text-gray-700">FullName</label>
+              <label className="block text-gray-700">Full Name</label>
               <input
                 {...register("name", { required: true })}
                 className="shadow rounded-lg appearance-none border  py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -79,7 +79,7 @@ function Contact() {
             </div>
             <button
               type="submit"
-              className="bg-black text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300"
+              className="bg-slate-950 text-white rounded-xl px-3 py-2 hover:bg-slate-700 duration-300"
             >
               Send
             </button>

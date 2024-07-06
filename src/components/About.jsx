@@ -9,8 +9,8 @@ function About() {
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I'm Akhil, a passionate Web developer with a keen eye for MERN
-          Stack . With a background in IT, I strive to create impactful and
+          Hello, I'm Sopan Bharkad , a passionate Web developer with a keen eye for MERN
+          Stack . With a background in CSE, I strive to create impactful and
           visually stunning Software solutions that leave a lasting impression.
         </p>
         <br />
@@ -18,9 +18,8 @@ function About() {
           Education & Training
         </h1>
         <span>
-          [Degree/Certification], [Institution], [Year] [Degree/Certification],
-          [Institution], [Year] [Relevant Course], [Platform/Institution],
-          [Year]
+        Hi Everyone, I am Sopan Bharkad from Nanded, India.
+         I have currently pursuing B.tech in Computer Science and Engineering at TGPCET, Nagpur
         </span>
         <br />
         <br />
@@ -28,10 +27,10 @@ function About() {
           Skills & Expertise
         </h1>
         <span>
-          Proficient in [Programming Languages] Experienced with [Software
-          Tools/Technologies] Strong grasp of [Design Principles/Concepts]
-          Excellent problem-solving skills Effective communicator and
-          collaborator
+            <li>Proficient in Html,Css,JS,React</li>
+            <li>Experienced with Visual Studio Code, GitHub, Microsoft Office Suite (Word, Excel, PowerPoint)</li>
+            <li>Excellent problem-solving skills</li>
+            <li>Effective communicator and collaborator</li>
         </span>
         <br />
         <br />
@@ -39,21 +38,19 @@ function About() {
           Professional Experience
         </h1>
         <span>
-          [Job Title], [Company/Organization], [Dates] [Brief description of
-          responsibilities and achievements] [Job Title],
-          [Company/Organization], [Dates] [Brief description of responsibilities
-          and achievements] [Freelance/Contract Work], [Client/Organization],
-          [Dates] [Brief description of projects and contributions]
+              <b className="text-orange-400 font-semibold text-xl">Internship at A-Fame Technologies as a web developer:</b>
+               <li>Developed and maintained responsive web applications using HTML, CSS, and JavaScript.</li>
+                <li>Assisted in troubleshooting and debugging issues for cross-browser compatibility.</li>
         </span>
-        <br />
-        <br />
-        <h1 className="text-green-600 font-semibold text-xl">
+        {/* <br />
+        <br /> */}
+        {/* <h1 className="text-green-600 font-semibold text-xl">
           Achievements & Awards
-        </h1>
-        <span>
+        </h1> */}
+        {/* <span>
           [Award/Recognition], [Organization/Institution], [Year] [Achievement],
           [Organization/Platform], [Year]
-        </span>
+        </span> */}
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
@@ -61,7 +58,7 @@ function About() {
         </h1>
         <p>
           My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
+          innovative Computer Science & Engineering solutions that exceed client expectations and
           contribute positively to the digital landscape. I am committed to
           continuous learning and growth, always seeking new challenges and
           opportunities to expand my horizons.
